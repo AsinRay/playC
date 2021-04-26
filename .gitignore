@@ -50,3 +50,11 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# config the executor map of code runner.
+
+#"code-runner.executorMap": {
+#        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.out && $dir/$fileNameWithoutExt.out",
+#        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.out && $dir/$fileNameWithoutExt.out"
+#    }
+
