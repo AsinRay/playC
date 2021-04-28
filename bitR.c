@@ -26,5 +26,9 @@ int main(){
     printf("%c\n",x^32);
 
     int y='a';
+
     printf("%c\n",y^1<<5);
+
+    y^=32;
+    printf("%c\n",y);
 }
