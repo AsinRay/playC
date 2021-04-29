@@ -1,5 +1,9 @@
 {
     "files.associations": {
+<<<<<<< HEAD
         "c.h": "c"
+=======
+        "string.h": "c"
+>>>>>>> dba91d8eb3d880f54b96433583e98e9702bbd597
     }
 }

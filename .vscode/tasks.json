@@ -9,7 +9,8 @@
                 "${file}",
                 "-o",
                 "'${fileDirname}${fileBasenameNoExtension}.out'",
-                "-std=c11"
+                "-std=c11",
+                "-lpthread"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
